@@ -1,4 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+import '../../css/form.css'
+import '../../css/text.css'
 
 const Login = () => {
 
@@ -13,6 +17,7 @@ const Login = () => {
                 </div>
                 <button className="formButton" type="submit">Login</button>
             </form>
+            <div><p>New User?  Register <NavLink to='/register'>Here</NavLink></p></div>
         </>
     )
 

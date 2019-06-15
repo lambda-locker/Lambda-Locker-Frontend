@@ -1,0 +1,10 @@
+@importurl('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #bb1333;
+}
