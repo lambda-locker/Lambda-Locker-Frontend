@@ -39,7 +39,7 @@ const Nav = () => {
     return (
         <NavBar>
             <div className="brandContainer">
-                <img src={Logo} />
+                <NavLink to='/'><img src={Logo} /></NavLink>
             </div>
             <div className="linkContainer">
                 <NavLink to='/register'><button>Register</button></NavLink>
