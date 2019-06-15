@@ -25,6 +25,7 @@ button:hover {
 .formButton {
     margin-top: 20px;
     width: 80%;
+    height: 44px;
 }
 
 .formButton:hover {

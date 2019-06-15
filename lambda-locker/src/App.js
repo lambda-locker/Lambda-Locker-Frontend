@@ -3,6 +3,7 @@ import { Route, NavLink, withRouter } from 'react-router-dom'
 
 import Nav from './components/Nav.js'
 import Login from './components/authentication/Login.js'
+import Register from './components/authentication/Register.js'
 import Home from './components/Home/Home.js'
 
 import './css/App.css';
@@ -16,6 +17,7 @@ function App() {
         <main>
           <Route exact path='/' component={Home} />
           <Route path='/login' component={Login} />
+          <Route path='/register' component={Register} />
         </main>
 
       </div>
