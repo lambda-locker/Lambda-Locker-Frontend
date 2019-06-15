@@ -2,6 +2,7 @@ import React from 'react'
 
 import { NavLink } from 'react-router-dom'
 
+import button from '../css/button.css'
 import styled from 'styled-components'
 
 const NavBar = styled.div`
@@ -12,22 +13,10 @@ const NavBar = styled.div`
 
     .navContainer {
         width: 80%;
-        padding: 10px 0;
+        padding: 20px 0;
         display: flex;
         justify-content: flex-end;
-
-        a {
-            color: #fff;
-            text-decoration: none;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            padding: 10px 20px;
-        }
-
-        a:first-child {
-            margin-right: 20px;
-        }
-        
+        max-height: 60px;        
     }
 `
 
@@ -36,11 +25,10 @@ const Nav = () => {
     return (
         <NavBar>
             <div className="navContainer">
-                <NavLink to='/register'>Register</NavLink>
-                <NavLink to='/login'>Login</NavLink>
-
+                <NavLink to='/register'><button>Register</button></NavLink>
+                <NavLink to='/login'><button>Login</button></NavLink>
             </div>
-        </NavBar>
+        </NavBar >
     )
 }
 
