@@ -8,6 +8,7 @@ const Login = () => {
 
     return (
         <>
+            <h2>Login to Open <br />Your <span className="lambdaText">Lambda Locker</span></h2>
             <form >
                 <div>
                     <input type="text" name="email" required placeholder="email" />
@@ -17,7 +18,7 @@ const Login = () => {
                 </div>
                 <button className="formButton" type="submit">Login</button>
             </form>
-            <div><p>New User?  Register <NavLink to='/register'>Here</NavLink></p></div>
+            <div><p>New User?  <NavLink to='/register'>Register</NavLink></p></div>
         </>
     )
 

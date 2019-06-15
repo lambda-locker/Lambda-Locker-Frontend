@@ -3,6 +3,8 @@ import { Route, NavLink, withRouter } from 'react-router-dom'
 
 import Nav from './components/Nav.js'
 import Login from './components/authentication/Login.js'
+import Home from './components/Home/Home.js'
+
 import './css/App.css';
 
 function App() {
@@ -10,10 +12,12 @@ function App() {
     <div className="App">
       <div>
         <Nav />
-        <h1>This is a react app...</h1>
+
         <main>
+          <Route exact path='/' component={Home} />
           <Route path='/login' component={Login} />
         </main>
+
       </div>
     </div>
   );

@@ -2,9 +2,15 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    font-color: 
 }
 
 a {
     text-decoration: none;
     color: #bb1333;
+}
+
+.lambdaText {
+    color: #bb1333;
+    font-weight: bolder;
 }
