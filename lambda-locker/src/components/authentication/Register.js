@@ -6,10 +6,11 @@ import '../../css/text.css'
 
 const Register = () => {
 
+
     return (
         <>
             <h2>Register to Create <br />Your <span className="lambdaText">Lambda Locker</span></h2>
-            <form >
+            <form>
                 <div>
                     <input type="text" name="student_name" required placeholder="name" />
                 </div>
@@ -25,6 +26,9 @@ const Register = () => {
                         <option value="data_science">Data Science</option>
                         <option value="uxui">UX/UI</option>
                     </select>
+                </div>
+                <div>
+                    <input type="text" className="cohort" name="cohort" required placeholder="cohort" />
                 </div>
                 <div>
                     <input type="text" name="email" required placeholder="email" />

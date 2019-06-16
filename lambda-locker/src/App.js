@@ -4,7 +4,7 @@ import { Route, NavLink, withRouter } from 'react-router-dom'
 import Nav from './components/Nav.js'
 import Login from './components/authentication/Login.js'
 import Register from './components/authentication/Register.js'
-import Home from './components/Home/Home.js'
+import Home from './components/home/Home.js'
 
 import './css/App.css';
 

@@ -11,8 +11,17 @@ const HomeContainer = styled.div`
         text-align: left;
     }
 
+    h1 {
+        text-align: left;
+    }
+
     h2 {
         text-align: left;
+    }
+
+    button {
+        margin-top: 40px;
+        border: 0;
     }
 `
 
@@ -23,7 +32,9 @@ const Home = () => {
             <p><span className="lambdaText">Lambda Locker</span> is your personal space to store notes, links, and resources as you journey through the <span className="lambdaText">Lambda</span>  Curriculum.</p>
             <p>When you create your <span className="lambdaText">Lambda Locker</span>, you'll also have access to the hundreds of resources other <span className="lambdaText">Lambda </span>students have stored and found useful themselves.</p>
             <h2>Interested in learning more?</h2>
-            <p>Discover <span className="lambdaText">Lambda Locker</span>.</p>
+            <p>Discover <span className="lambdaText">Lambda Locker</span>.<br /><button>Learn More</button></p>
+
+            <div></div>
         </HomeContainer>
     )
 }
